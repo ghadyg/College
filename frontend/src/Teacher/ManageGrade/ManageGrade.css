@@ -1,0 +1,56 @@
+.WrapperGrade{
+    height: 100vh;
+    background-color: rgb(23, 173, 160);
+    position: relative;
+    
+}
+.contentGrade{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 20vw);
+	top:10vh;  
+}
+/* .contentGrade > * {
+    border: 1px solid black; 
+    padding: 10px; 
+} */
+.lblGradeBook{
+    position: relative;
+    margin-top: 2vh;
+    grid-column: 2;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    align-self:end;
+}
+.searchInput{
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top:5vh;
+    height: 3vh;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.searchInput:focus{
+    outline: none;
+    
+}
+.lblGrades{
+    position: relative;
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:3vh;
+}
+.tableGrade{
+    position: relative;
+    grid-column: 2;
+    grid-row: 4;
+    margin-top:1vh;
+}
+    

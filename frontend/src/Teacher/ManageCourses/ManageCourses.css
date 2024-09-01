@@ -1,0 +1,120 @@
+.Wrapper{
+    height: 100vh;
+    background-color: rgb(23, 173, 160);
+    position: relative;
+    
+}
+.content{
+    position: relative;
+    display: grid;
+	top:10vh;  
+}
+
+.addCourse{
+	border: 5px white;
+	grid-column-start: 2;
+	position: relative;
+	display: flex;
+	top: 3vh;
+}
+.btn{
+	position: relative;
+	left: 1vh;
+	height: 1vh;
+	justify-content: center;
+    align-items: center;
+	display: flex;
+    padding: 1.25vh 0.5vw;
+    border-radius: 6px;
+    background-color: #0B847A;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1;
+    border-color: transparent;
+}
+.inputcourse{
+	display: block;
+	
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    letter-spacing: 1px;
+    position: relative;
+    height: 2.5vh;
+	min-width: 7vw;
+	width: fit-content; 
+
+}
+.inputcourse:focus{
+	outline: none;
+}
+table {
+	width: 70vw;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    position: relative;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	top: 5vh;
+	
+    
+    
+}
+
+th,
+td {
+    padding: 10px 10px;
+    color: #ffff;
+    text-align: center;
+  }
+
+th {
+	
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+thead {
+	th {
+		background-color: #1d2936;
+        color: #fff;
+        border: 1px solid #1d2936;
+	}
+}
+tbody tr:nth-child(odd) {
+	background-color: rgba(32,41,50,0.9);
+    color: #FFFFFF;
+        }
+
+tbody tr:nth-child(even) {
+	background-color: #1d2936;
+    color: #FFFFFF;
+    }
+.selected > td{
+	background-color: rgba(32,41,50,1);
+}
+tbody {
+	tr {
+        font-size: 1.3rem;
+        font-family: "Lato", sans-serif;
+		
+	}
+	td {
+		position: relative;
+        border: 1px solid #1d2936;
+        padding: 10px 10px;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(32,41,50,1);
+				z-index: -1;
+			}
+		}
+		
+	}
+}

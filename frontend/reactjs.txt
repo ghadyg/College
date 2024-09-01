@@ -1,0 +1,26 @@
+npx create-react-app react-app
+npm install axios
+npm install react-router-dom
+npm install styled-components
+npm install @mui/x-data-grid react-router-dom@6 formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/bar @nivo/line @nivo/bar @nivo/geo   
+npm install react-pro-sidebar@0.7.1  
+npm install @mui/icons-material  
+npm install @mui/material @emotion/react @emotion/styled
+
+npm install @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom@6 react-pro-sidebar@0.7.1 formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/bar @nivo/line @nivo/bar @nivo/geo
+
+npm init -y
+npm install --save-dev hardhat@latest
+npx hardhat
+npm install --save-dev chai @nomiclabs/hardhat-ethers ethers @nomicfoundation/hardhat-toolbox @nomicfoundation/hardhat-chai-matchers
+npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+create-react-app: https://create-react-app.dev/
+material ui: https://mui.com/material-ui/getting-s...
+nivo charts: https://nivo.rocks/components
+full calendar: https://fullcalendar.io/docs
+formik: https://formik.org/docs/overview#inst...
+yup validation: https://github.com/jquense/yup
+react pro sidebar: https://github.com/azouaoui-med/react...
+google fonts: https://fonts.google.com/
+pestiside to see css layout
+

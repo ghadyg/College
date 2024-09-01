@@ -1,0 +1,40 @@
+.contour {
+    background-color: white;
+    width: 40vw;
+    min-width: 100%;
+    border: 2px solid rgb(8, 119, 110); 
+    border-radius: 10px; 
+    padding: 20px 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+.gradeContainer{
+    display: grid;
+    grid-template-columns: repeat(2,19vw);
+    
+}
+.studentName{
+    position: relative;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px 1px;
+}
+.gradeDivMod{
+    justify-self: end;
+    width: 2vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.gradeInput{
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 4vw; 
+    border: none;
+    text-align: right;
+}
+.gradeInput::-webkit-outer-spin-button,
+.gradeInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+

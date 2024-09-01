@@ -1,0 +1,72 @@
+
+.Courses{
+    position: relative;
+    display: flex;
+    top: 1vh;
+    height: 100%;
+    padding-left:15px ;
+    padding-right: 15px;
+    padding-top: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 1vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lblCourse{
+    color: black;
+    position: relative;
+    font-size: 1.6em;
+    font-weight: 900;
+}
+.lblT{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 900;
+    margin-left: auto;
+}
+.btnRegister{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    border-radius: 6px;
+    width: 34%; 
+    height: 30px;
+    background-color: #0B847A;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border-color: transparent;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.btnRegister:hover{
+    cursor: pointer;
+}
+.selectTeacher {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 14px;
+    margin-top: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .selectTeacher:focus {
+    outline: none;
+    border-color: #e7af00;
+  }
